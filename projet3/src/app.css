@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&family=Montserrat&family=Roboto&display=swap");
+* {
+    font-family: "Cairo", sans-serif;
+}
+
+body,
+html {
+    scroll-behavior: smooth;
+}
+
+li {
+    filter: brightness(0.99);
+}
+
+.menuItems section img {
+    width: 320px;
+    object-fit: cover;
+    border-radius: 6px;
+    background: red;
+}
+
+.navbarMenu {
+    margin-top: -1.8%;
+    opacity: 0.9;
+}
+
+
+/* .navbar {
+    backdrop-filter: blur(10px);
+    background: white;
+} */
+
+.changeColor {
+    background-color: #e04a4a;
+    transition: 0.5s all ease-in-out;
+}
+
+.rotate {
+    display: inline-block;
+    left: 0;
+    transition: 0.5s all ease-in-out;
+}
+
+.rotate li {
+    margin: 28px;
+    padding: 0;
+}
+
+.rotate {
+    display: inline-block;
+    left: 0;
+    transform: translate(0%, -22%);
+}
+
+.active {
+    color: #e04a4a;
+    transition: 0.5s all ease-in-out;
+}
+
+.item ul li a:hover {
+    color: #e04a4a;
+    transition: 0.5s all ease-in-out;
+}
+
+.ovverlay {
+    position: absolute;
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+.navv {
+    position: fixed;
+    transform: translate(0px, -27.8rem);
+}
+
+span.livraison {
+    margin-top: -6%;
+    margin-left: 20%;
+}
+
+span.livraison {
+    margin-top: -6%;
+    margin-left: 12%;
+    color: #ff5252;
+}
+
+.livraison h1 {}
+
+input {
+    min-width: 398px;
+    padding: 8px;
+}
+
+input {
+    width: 50%;
+    padding: 8px !important;
+}
+
+textarea {
+    resize: none;
+}
+
+.map img {
+    min-height: 538px;
+    margin-left: 3%;
+}
